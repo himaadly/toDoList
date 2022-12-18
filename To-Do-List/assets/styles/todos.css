@@ -1,0 +1,22 @@
+
+#CompletedTaskArea{
+    border-radius: 5px;
+    height:30px;
+    width: 450px;
+    border: none;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+/* #completedTasksInput:hover{
+    background-color: white;
+} */
+
+.completedTask{
+    font-family: "Sofia", sans-serif;
+}
+h2{
+    font-family: "Sofia", sans-serif;
+}
+.notCompleted{
+    font-size: small;
+}

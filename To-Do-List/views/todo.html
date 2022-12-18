@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/master.css">
+    <link rel="stylesheet" href="../assets/styles/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="../assets/styles/todos.css">
+    <title>TODOS Page</title>
+</head>
+<body>
+    <div id="page">
+        
+        <div id="container">
+            <div id="sideBar">
+                <div id="imageDiv">
+                <img  src="../assets/images/istockphoto-517998264-612x612.jpg" alt ="profile picture"> 
+                </div>
+                <h1 id="userName">Ibrahim Mohamed</h1>
+                <div id="activeTaskCounter">
+                    <p id="status"> </p>
+                    <p id="completedStatus"></p>
+                    <p id="notCompletedStatus"></p>
+                </div>
+            </div> 
+            <div id="contentArea">
+            <div id="navBar">
+                <div class="btn-group">
+                    
+                    <a href="../index.html"><input type="button" value="Home" onclick="" ></a>
+                    
+                    <a href="./todo.html"><input type="button" value="TODOS"></a>
+                    
+                    <a href="./setting.html"><input type="button" value="Setting"></a>
+                  </div>
+            </div>
+
+            <div id="taskArea">
+                <div id="popUpForm">
+                    <input type="text" id="popUpinput" placeholder="please Place Ur Edited Text">
+                    <span id="editActivator" class="returnBack">Update Task</span>
+                </div>
+                <div id="mainTaskArea">
+                <input type="text" id="tasksInput">
+                <button id="tasksCreator">Create Task</button>
+                 </div>
+             </div>
+             <div id="CompletedTaskArea">
+               <h3> Completed Tasks</h3>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+    
+    <script src="../js/todos.js"></script>
+</body>
+</html>

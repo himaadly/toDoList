@@ -1,0 +1,37 @@
+#eraseDataDiv{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 70px;
+    background-color: rgb(213, 207, 207);
+    width: 500px;
+    height:100px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#eraseDataBtn{
+    display: block;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+}
+#eraseDataBtn:hover{
+    cursor: pointer;
+    background-color:rgb(167, 156, 156) ;
+}
+#dissapearQuotes{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 70px;
+    background-color: rgb(213, 207, 207);
+    width: 500px;
+    height:100px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#DissapearActicator{
+    width: 100px;
+    height: 30px;
+}

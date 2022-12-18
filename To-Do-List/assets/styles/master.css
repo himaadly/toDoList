@@ -1,0 +1,88 @@
+:root{
+    --grey: #9F73AB;
+    --sidebargrey:#453C67;
+    --navbarcolor:#624F82;  
+}
+
+#page{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5%;
+}
+
+#container{
+    display: flex;  
+    border-radius: 10px;
+    width: 900px;
+    height: 700px;
+    background-color: var(--grey);
+}
+
+#sideBar{
+    display: flex;
+    width: 25%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--sidebargrey);  
+    flex-direction: column; 
+
+}
+#contentArea{
+    width: 100%;
+}
+#navBar{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color: var(--navbarcolor);
+    border-top-right-radius: 10px;
+}
+#imageDiv{
+    display: flex;
+    justify-content: center;
+    padding:1rem ;
+}
+#imageDiv img{
+    height: 150px;
+    border-radius: 10px;
+    
+}
+#userName{
+    font-size:large;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    color: aliceblue;
+
+}
+.btn-group{
+    margin-top: 5%;
+    margin-left: 55%;
+    
+    
+}
+/* component */
+.btn-group input {
+    background-color:var(--navbarcolor);  
+    border-radius: 10px;
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    border: none;
+    
+  }
+
+ input:hover{
+    background-color: var(--sidebargrey);
+    transition: 2s;
+ }
+
+ p{
+    font-family: "Sofia", sans-serif;
+    margin-left: 7px;
+}
+#activeTaskCounter{
+    color: aliceblue;
+    font-size: large;
+    margin-left: 10px;
+}
